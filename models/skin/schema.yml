@@ -1,0 +1,18 @@
+
+version: 2
+
+models:
+  - name: vmarketing_spend
+    description: ""
+    columns:
+      - name: marketing_channel
+      - name: monthly_total_spend
+      - name: channel_users
+      - name: cost_per_user
+
+  - name: vsubscriptions_distribution_per_channel
+    description: ""
+    columns:
+      - name: marketing_channel
+      - name: num_subscriptions
+      - name: number_of_cust
